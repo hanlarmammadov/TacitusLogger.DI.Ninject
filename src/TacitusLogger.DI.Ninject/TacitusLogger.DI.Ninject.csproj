@@ -3,8 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <Authors>Khanlar Mammadov</Authors>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Extension for Ninject dependency injection container that helps to configure and add TacitusLogger as a singleton.
+Attention: TacitusLogger.DI.Ninject is currently in Alpha phase. This means you should not use it in any production code.</Description>
+    <PackageReleaseNotes>Attention: TacitusLogger.DI.Ninject is currently in Alpha phase. This means you should not use it in any production code.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/khanlarmammadov/TacitusLogger.DI.Ninject</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/khanlarmammadov/TacitusLogger.DI.Ninject</RepositoryUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\TacitusLogger.DI.Ninject.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
